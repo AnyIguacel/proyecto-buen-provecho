@@ -67,6 +67,8 @@ li {
 
 .linea {
     display: inline;
+    color: antiquewhite;
+    margin-bottom: 2rem;
 }
 
 .bloque {
@@ -76,11 +78,24 @@ li {
 .dejar-fijo{
     position: fixed;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    color: antiquewhite;
+    text-transform: uppercase;
     
 }
 
 .parrafo-de-direccion{
     padding-top: 100px;
     text-align: center;
+
+}
+.armadodelista{
+    display: flex;
+    color: antiquewhite;
+    list-style: none;
+    margin-bottom: 2rem;
+    align-items: center;
 
 }
