@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
 body{
     background-color: black;
 }
@@ -20,4 +28,20 @@ h4{
 
 li{
     color: goldenrod
+}
+
+.titulo-centrado-mayuscula{
+text-align: center;
+text-transform: uppercase;
+color: antiquewhite;
+}
+
+.titulo-centrado{
+    text-align: center;
+    text-transform: capitalize;
+    color: gold;
+}
+
+.fondodegrade{
+    background: linear-gradient(171deg, rgba(2,0,36,1) 0%, rgba(158,123,7,1) 99%);
 }
