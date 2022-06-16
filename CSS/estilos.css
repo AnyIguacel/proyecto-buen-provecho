@@ -89,8 +89,8 @@ li {
 .parrafo-de-direccion {
     padding-top: 100px;
     text-align: center;
-
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
 .armadodelista {
     display: flex;
@@ -105,44 +105,45 @@ li {
     background-color: gold;
     width: 200px;
     height: 200px;
-    color:black;
+    color: black;
     padding: 5rem;
     margin-right: 1rem;
     background-image: url(../fotos/otro\ sandwich.png);
     background-repeat: no-repeat;
     background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
     background-size: cover
-   
+      
 }
 
 .botondeacceso2 {
     background-color: gold;
     width: 200px;
     height: 200px;
-    color:black;
+    color: black;
     padding: 5rem;
     margin-right: 1rem;
     background-image: url(../fotos/ensalada.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover
-   
 }
+
 .botondeacceso3 {
     background-color: gold;
     width: 200px;
     height: 200px;
-    color:black;
+    color: black;
     padding: 5rem;
     margin-right: 1rem;
     background-image: url(../fotos/otra\ carne.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover
-   
 }
 
-.cuadradodelink{
+.cuadradodelink {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -152,6 +153,4 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover
-    
 }
-
