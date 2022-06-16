@@ -29,7 +29,7 @@ h4 {
     color: antiquewhite
 }
 
-h5{
+h5 {
     color: antiquewhite
 }
 
@@ -75,23 +75,24 @@ li {
     display: block;
 }
 
-.dejar-fijo{
+.dejar-fijo {
     position: fixed;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around ;
+    justify-content: space-around;
     color: antiquewhite;
     text-transform: uppercase;
-    
+
 }
 
-.parrafo-de-direccion{
+.parrafo-de-direccion {
     padding-top: 100px;
     text-align: center;
 
 }
-.armadodelista{
+
+.armadodelista {
     display: flex;
     color: antiquewhite;
     list-style: none;
@@ -99,3 +100,18 @@ li {
     align-items: center;
 
 }
+
+.botondeacceso {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    color:black;
+    padding: 5rem;
+    margin-right: 1rem;
+}
+
+.cuadradodelink{
+    display: flex;
+    flex-direction: row;
+}
+
