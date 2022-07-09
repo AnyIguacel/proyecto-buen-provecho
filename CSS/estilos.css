@@ -13,18 +13,25 @@
     font-weight: 700;
     line-height: 1.8;
     width: 100%;
-    
-}
-.inicio1foto{
-    gitbackground-repeat: no-repeat;
-    background-position: center;
-    background-size: cover
 
 }
-a{
-    color:inherit
+
+.inicio1foto {
+    background-color: black;
+    background-position: center;
+    margin-top: 2rem;
+    background-image: url(../perfil-BP-1.jpg);
+    background-repeat: no-repeat;
+    padding: 300px ;
+  background-attachment: fixed;
+    
 }
-.inicio2{
+
+a {
+    color: inherit
+}
+
+.inicio2 {
     text-align: center;
     text-transform: uppercase;
     color: gold;
@@ -32,6 +39,5 @@ a{
     background-color: black;
     margin-bottom: 5rem;
     margin-top: 3rem;
- 
-}
 
+}
