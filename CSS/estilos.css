@@ -4,12 +4,34 @@
     box-sizing: border-box;
 }
 
-.titulo-centrado {
+.inicio1texto {
     text-align: center;
     text-transform: uppercase;
     color: gold;
     font-size: 25px;
     background-color: black;
+    font-weight: 700;
+    line-height: 1.8;
+    width: 100%;
+    
 }
+.inicio1foto{
+    gitbackground-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
 
+}
+a{
+    color:inherit
+}
+.inicio2{
+    text-align: center;
+    text-transform: uppercase;
+    color: gold;
+    font-size: 25px;
+    background-color: black;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+ 
+}
 
