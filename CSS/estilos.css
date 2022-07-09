@@ -4,98 +4,12 @@
     box-sizing: border-box;
 }
 
-
-
-body {
+.titulo-centrado {
+    text-align: center;
+    text-transform: uppercase;
+    color: gold;
+    font-size: 25px;
     background-color: black;
 }
 
-h1 {
-    color: whitesmoke
-}
 
-h2 {
-    color: antiquewhite
-}
-
-h3 {
-    color: antiquewhite;
-    text-transform: uppercase
-}
-
-h4 {
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    color: antiquewhite
-}
-
-h5{
-    color: antiquewhite
-}
-
-li {
-    margin-bottom: 1rem;
-    color: goldenrod;
-    line-height: 1.8;
-    margin-bottom: 2rem;
-}
-
-.titulo-centrado-mayuscula {
-    text-align: center;
-    text-transform: uppercase;
-    color: antiquewhite;
-}
-
-.titulo-centrado {
-    text-align: center;
-    text-transform: capitalize;
-    color: gold;
-}
-
-.fondodegrade {
-    background: linear-gradient(171deg, rgba(2, 0, 36, 1) 0%, rgba(158, 123, 7, 1) 99%);
-}
-
-.imagendefondo {
-    background-image: url(../fotos/bp\ negro\ y\ dorado.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 100px;
-    background-attachment: fixed;
-}
-
-.linea {
-    display: inline;
-    color: antiquewhite;
-    margin-bottom: 2rem;
-}
-
-.bloque {
-    display: block;
-}
-
-.dejar-fijo{
-    position: fixed;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around ;
-    color: antiquewhite;
-    text-transform: uppercase;
-    
-}
-
-.parrafo-de-direccion{
-    padding-top: 100px;
-    text-align: center;
-
-}
-.armadodelista{
-    display: flex;
-    color: antiquewhite;
-    list-style: none;
-    margin-bottom: 2rem;
-    align-items: center;
-
-}
