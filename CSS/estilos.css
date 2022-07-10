@@ -28,6 +28,14 @@
     
 }
 
+.listaheader{
+    margin-left: 2rem;
+    text-decoration: none;
+}
+ .headerenlace{
+    text-decoration: none;
+ }
+
 a {
     color: inherit
 }
@@ -42,3 +50,30 @@ a {
     margin-top: 3rem;
 
 }
+
+.header1{
+    position: fixed;
+    width: 100%;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 0 2rem;
+
+}
+
+.imagenlogo{
+    padding: 2 rem;
+    width: 15%;
+
+}
+
+.navlista{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    min-height: 60px;
+}
+
