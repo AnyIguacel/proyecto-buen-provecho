@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+.footer{
+    background-color: green;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color: goldenrod;
+    padding-top: 3rem;
+
+}
+
 .inicio1texto {
     text-align: center;
     text-transform: uppercase;
@@ -23,18 +35,19 @@
     margin-top: 2rem;
     background-image: url(../perfil-BP-1.jpg);
     background-repeat: no-repeat;
-    padding: 300px ;
-  background-attachment: fixed;
-    
+    padding: 300px;
+    background-attachment: fixed;
+
 }
 
-.listaheader{
+.listaheader {
     margin-left: 2rem;
     text-decoration: none;
 }
- .headerenlace{
+
+.headerenlace {
     text-decoration: none;
- }
+}
 
 a {
     color: inherit
@@ -48,12 +61,12 @@ a {
     background-color: black;
     margin-bottom: 5rem;
     margin-top: 3rem;
-
+    flex-direction: row;
+    justify-content: space-between
 }
 
-.header1{
-    position: fixed;
-    width: 100%;
+.header1 {
+       width: 100%;
     background-color: gold;
     display: flex;
     flex-direction: row;
@@ -63,13 +76,32 @@ a {
 
 }
 
-.imagenlogo{
+.imagenlogo {
     padding: 2 rem;
     width: 15%;
 
 }
 
-.navlista{
+.menupaginainicio {
+    background-color: black;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+
+}
+
+.menutitulo {
+    font-size: 40px;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: azure;
+    background-color: black;
+}
+
+
+.navlista {
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -77,3 +109,47 @@ a {
     min-height: 60px;
 }
 
+.productopadre {
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 500px;
+    background-color: goldenrod;
+    flex-wrap: wrap;
+}
+
+.productohijo1 {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+
+}
+
+.productohijo2 {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+}
+
+.productohijo3 {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+}
+
+.productoimagen {
+    position: absolute;
+    bottom: 10;
+    right: 10;
+}
