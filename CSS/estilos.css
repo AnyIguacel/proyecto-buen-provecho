@@ -5,16 +5,30 @@
 }
 
 .footer{
-    background-color: green;
+    background-color: black;
+    text-transform: uppercase;
+    color: gold;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-decoration: none;
-    color: goldenrod;
+       color: goldenrod;
     padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 }
+.footerenlace{
+    text-decoration: none;
+}
+
+.body{
+    background-color: gold;
+}
+
+
 
 .inicio1texto {
     text-align: center;
@@ -27,7 +41,9 @@
     width: 100%;
 
 }
-
+.iniciotextofondo{
+    background-color: black;
+}
 
 .inicio1foto {
     background-color: black;
@@ -96,8 +112,9 @@ a {
     font-size: 40px;
     margin-bottom: 2rem;
     text-align: center;
-    color: azure;
+    color: gold;
     background-color: black;
+    padding-top: 15px;
 }
 
 
@@ -111,7 +128,7 @@ a {
 
 .productopadre {
     display: flex;
-   
+     padding: 10px;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
@@ -121,31 +138,45 @@ a {
 }
 
 .productohijo1 {
-    background-color: black;
+    background-color: gold;
     width: 250px;
     height: 250px;
     border-radius: 10px;
     padding: 1rem;
     position: relative;
-
+    background-image: url(../hamburguesa.jpg);
+    
+    
 }
 
 .productohijo2 {
-    background-color: black;
+    background-color: gold;
     width: 250px;
     height: 250px;
     border-radius: 10px;
     padding: 1rem;
     position: relative;
+    background-image: url(../ensalada.jpg);
+   
 }
 
 .productohijo3 {
-    background-color: black;
-    width: 250px;
+    background-color: gold;
+        width: 250px;
     height: 250px;
     border-radius: 10px;
     padding: 1rem;
     position: relative;
+    background-image: url(../cubierto2.jpg) 
+    
+     
+    
+}
+
+.productohijoenlace{
+    color: black;
+    text-decoration: none;
+    padding: ;
 }
 
 .productoimagen {
@@ -153,3 +184,4 @@ a {
     bottom: 10;
     right: 10;
 }
+
