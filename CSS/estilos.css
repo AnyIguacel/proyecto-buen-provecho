@@ -176,7 +176,7 @@ a {
 .productohijoenlace{
     color: black;
     text-decoration: none;
-    padding: ;
+    
 }
 
 .productoimagen {
@@ -184,4 +184,14 @@ a {
     bottom: 10;
     right: 10;
 }
+.tituloensalada{
+    background-color: black;
+    color: goldenrod
+    
+}
 
+.subtitulovariedades{
+    background-color: black;
+    color: goldenrod
+
+}
