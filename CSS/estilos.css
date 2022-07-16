@@ -3,20 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
- ul{
+
+ul {
     margin-bottom: 0;
     padding-left: 0;
- }
+}
 
-.mainminimo{
+.mainminimo {
     min-height: 100vh;
     background-color: goldenrod;
     display: flex;
+    justify-content: center;
 }
+
+
 
 .footer {
     background-color: black;
     text-transform: uppercase;
+    text-decoration: none;
     color: gold;
     width: 100%;
     display: flex;
@@ -201,24 +206,20 @@ a {
 }
 
 .subtitulovariedades {
-    font-size: 30px;
+    font-size: 20px;
     background-color: goldenrod;
     color: black
 }
 
 .subtitulovariedades2 {
-    font-size: 30px;
+    font-size: 25px;
     background-color: goldenrod;
     color: black
 }
+
 .fondopaginassecundarias {
     background-color: goldenrod;
-    background-position: center; 
-}
-
-.mb-1 {
-    background-color: rgb(240, 230, 206);
-
+    background-position: center;
 }
 
 .centrartodo {
@@ -227,21 +228,37 @@ a {
     color: black;
     font-size: 25px;
     background-color: goldenrod;
-       background-position: center;
+    background-position: center;
 }
 
-.mb-3{
-width: 300;
-height: 300;
-padding-top: 2rem
-  
+.mb-3 {
+    width: 300;
+    height: 300;
+    padding-top: 2rem
 }
 
 .mapa {
     padding-top: 2rem;
+    border-radius: 10px;
 }
 
-.mapatitulo{
+.mapatitulo {
     color: black
+}
+
+.contacto1 {
+    padding-top: 100px;
+    justify-content: space-evenly;
+   }
+
+   .list-group-item,  list-group-item-action {
+    background-color: rgb(240, 230, 206)
+   }
+
+   @media (max-width: 1023px){
+
+   }
+   
+   @media (max-width: 600px){
     
 }
