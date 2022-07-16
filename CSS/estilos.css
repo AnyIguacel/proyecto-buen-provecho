@@ -21,7 +21,6 @@ ul {
 .footer {
     background-color: black;
     text-transform: uppercase;
-    text-decoration: none;
     color: gold;
     width: 100%;
     display: flex;
@@ -249,16 +248,31 @@ a {
 .contacto1 {
     padding-top: 100px;
     justify-content: space-evenly;
-   }
+}
 
-   .list-group-item,  list-group-item-action {
+.list-group-item,
+.list-group-item-action {
     background-color: rgb(240, 230, 206)
-   }
+}
 
-   @media (max-width: 1023px){
+.list-group {
+    padding-bottom: 3px;
+}
 
-   }
-   
-   @media (max-width: 600px){
-    
+
+@media (max-width: 1023px) {
+    .productopadre {
+        align-items: center;
+        gap: 20px;
+        padding: 4rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .productopadre {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 2rem 1rem;
+    }
 }
