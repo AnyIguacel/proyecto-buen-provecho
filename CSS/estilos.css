@@ -110,7 +110,7 @@ a {
 
 .imagenlogo {
     padding: 2 rem;
-    width: 15%;
+    width: 150px;
 
 }
 
@@ -238,7 +238,8 @@ a {
 .mapa {
     padding-top: 2rem;
     border-radius: 10px;
-    width: 300px height: 300px
+    width: 300px;
+    height: 300px;
 }
 
 .mapatitulo {
@@ -291,7 +292,6 @@ a {
         justify-content: space-evenly;
         width: 300px;
         padding: 1rem 1rem;
-        p
     }
 
     .mainminimo {
