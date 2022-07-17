@@ -21,12 +21,11 @@ ul {
 .footer {
     background-color: black;
     text-transform: uppercase;
-    color: gold;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: goldenrod;
+    color: #6C5533;
     padding-top: 3rem;
     padding-left: 3rem;
     padding-right: 5rem;
@@ -48,7 +47,7 @@ ul {
 .inicio1texto {
     text-align: center;
     text-transform: uppercase;
-    color: gold;
+    color: #6C5533;
     font-size: 25px;
     background-color: black;
     font-weight: 700;
@@ -88,7 +87,7 @@ a {
 .inicio2 {
     text-align: center;
     text-transform: uppercase;
-    color: gold;
+    color: #6C5533;
     font-size: 25px;
     background-color: black;
     margin-bottom: 5rem;
@@ -129,7 +128,7 @@ a {
     font-size: 40px;
     margin-bottom: 2rem;
     text-align: center;
-    color: gold;
+    color: #6C5533;
     background-color: black;
     padding-top: 15px;
 }
@@ -284,7 +283,7 @@ a {
 
     .mapa {
         width: 100%;
-      
+
     }
 
     .contacto1 {
@@ -292,7 +291,7 @@ a {
         justify-content: space-evenly;
         width: 300px;
         padding: 1rem 1rem;
-        
+        p
     }
 
     .mainminimo {
@@ -303,17 +302,18 @@ a {
         display: flex;
     }
 
-    .inicio1foto{
+    .inicio1foto {
         width: 100%;
         object-fit: cover;
     }
 
-    .header1{
+    .header1 {
         flex-direction: column;
         justify-content: center;
     }
-    .imagenlogo{
+
+    .imagenlogo {
         padding: 2 rem;
-    width: 40%;
+        width: 40%;
     }
 }
